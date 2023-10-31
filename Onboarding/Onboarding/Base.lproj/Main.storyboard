@@ -106,7 +106,7 @@
                                     <action selector="nextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WM3-sM-snM"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9wG-Gs-dwy">
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9wG-Gs-dwy">
                                 <rect key="frame" x="138.66666666666666" y="686" width="115.66666666666666" height="26"/>
                                 <color key="pageIndicatorTintColor" systemColor="systemGray5Color"/>
                                 <color key="currentPageIndicatorTintColor" systemColor="systemRedColor"/>
@@ -127,7 +127,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="OF2-kf-Un3" id="PIG-gE-sXh"/>
-                        <outlet property="nectButton" destination="XZL-BA-7Pt" id="7gd-72-3EI"/>
+                        <outlet property="nextButton" destination="XZL-BA-7Pt" id="7gd-72-3EI"/>
                         <outlet property="pageControl" destination="9wG-Gs-dwy" id="izt-4n-Tsb"/>
                     </connections>
                 </viewController>
